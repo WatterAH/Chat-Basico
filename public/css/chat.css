@@ -1,0 +1,170 @@
+body {
+    background-color: #FAD7A0;
+}
+
+nav {
+    width: 60%;
+    height: 8%;
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    transform: translate(-50%, -50%);
+    background-color: #EC7063;
+    border-radius: 3em;
+}
+
+h3 {
+    font-family: Candara;
+    margin: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h4 {
+    font-family: Candara;
+    font-size: 20px;
+}
+
+p {
+    font-family: Candara;
+}
+
+button {
+    width: 75px;
+    height: 35px;
+    background-color: #EC7063;
+    border-color: transparent;
+    border-radius: 2em;
+}
+
+button:hover {
+    filter: brightness(.9);
+}
+
+input {
+    width: 50%;
+    height: 15px;
+    border-radius: 2em;
+    margin: 10px;
+    border-color: transparent;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+input:hover {
+    filter: brightness(.9);
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    margin: 50px;
+    font-family: Consolas;
+    font-size: medium;
+}
+
+#div-principal {
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#salida {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+#div-h3 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#datos {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#usuarios {
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+#notificaciones {
+    position: absolute;
+    text-align: center;
+}
+
+.h4 {
+    position: relative;
+    left: 35%;
+}
+
+@media screen and (max-width:800px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    button {
+        margin: 10px;
+    }
+
+    #datos {
+        width: 65%;
+        height: 40%;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    #salida {
+        width: 100%;
+    }
+
+
+    .h4 {
+        position: relative;
+        left: 43%;
+    }
+
+    #usuarios {
+        width: 30%;
+        position: absolute;
+        top: 9%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+        font-size: 10px;
+    }
+
+    #notificaciones {
+        position: absolute;
+        width: 100%;
+        left: 35%;
+        text-align: center;
+    }
+}
